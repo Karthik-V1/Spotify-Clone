@@ -69,11 +69,12 @@ body {
   opacity: 0.8;
   width: 2rem;
   height: 2rem;
-  margin-left: 1.5rem;
+  margin-left: 0.5rem;
 }
 
 .spotify-icon img:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 .home {
@@ -147,6 +148,11 @@ body {
 .browse > .browse-icon {
   margin-top: 1rem;
   font-size: 1.4rem;
+}
+
+.browse:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .browse > .pipe-1 {
@@ -249,6 +255,7 @@ body {
 
 .icons i:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 /* library boxes */
@@ -287,6 +294,11 @@ body {
   height: 2rem;
   width: 7.8rem;
   border: none;
+}
+
+.box-1 > .badge:hover,
+.box-2 > .badge:hover {
+  cursor: pointer;
 }
 
 /* library footer .options */
