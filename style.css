@@ -1,0 +1,336 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+  background-color: black;
+}
+
+.main {
+  display: flex;
+  height: 90vh;
+}
+
+.library {
+  background-color: #121212;
+  color: white;
+  width: 420px;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  /* 1rem = 16px */
+}
+
+.main-content {
+  background-color: #2b2b2b;
+  flex: 1;
+  border-radius: 0.5rem;
+  overflow: auto;
+}
+
+.music-player {
+  background-color: aqua;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  height: 8vh;
+  width: 100%;
+  justify-content: space-evenly;
+  /* border: 2px solid white; */
+  /* padding-top: 1rem; */
+}
+
+.fa-bell,
+.fa-user,
+.fa-magnifying-glass,
+.fa-house {
+  color: white;
+  opacity: 0.7;
+}
+
+.fa-bell:hover,
+.fa-user:hover,
+.fa-magnifying-glass:hover,
+.fa-house:hover {
+  opacity: 1;
+}
+
+.spotify-icon {
+  margin-top: 0.6rem;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.spotify-icon img {
+  opacity: 0.8;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1.5rem;
+}
+
+.spotify-icon img:hover {
+  opacity: 1;
+}
+
+.home {
+  /* background-color: #121212; */
+  background-color: #232323;
+  /* border: 2px solid white; */
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  opacity: 0.6;
+  padding-right: 0.1rem;
+  /* margin-top: 0.1rem; */
+}
+
+.home:hover {
+  opacity: 1;
+}
+
+.fa-house {
+  padding: 1rem 0rem 0rem 1rem;
+}
+
+.left-side-nav {
+  display: flex;
+  margin-top: 0.1rem;
+  margin-right: 22rem;
+}
+
+.right-side-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 32.25rem;
+}
+
+.search {
+  /* border: 2px solid white; */
+  /* background-color: #121212; */
+  background-color: #232323;
+  width: 28.5rem;
+  height: 3rem;
+  border-radius: 2.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.search a {
+  font-size: 1rem;
+}
+
+.fa-magnifying-glass {
+  padding: 1rem 0rem 0rem 1.2rem;
+  /* margin-bottom: 1rem; */
+}
+
+.text-search {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+  opacity: 0.7;
+  /* border: 2px solid white; */
+}
+
+.browse {
+  color: white;
+  margin-left: 7rem;
+  font-size: 2rem;
+  opacity: 0.7;
+  font-weight: 100;
+}
+.browse > .browse-icon {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.browse > .pipe-1 {
+  font: size 2.2rem;
+}
+
+.premium a,
+.support a,
+.download a,
+.pipe {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.premium,
+.download,
+.support {
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+
+.premium:hover,
+.download:hover,
+.support:hover {
+  opacity: 1;
+}
+
+.pipe {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.notification {
+  /* border: 2px solid white; */
+  width: 4rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.fa-bell {
+  padding: 1rem 0rem 0rem 1.2rem;
+}
+
+.profile {
+  /* border: 2px solid white; */
+  /* background-color: #121212; */
+  background-color: #232323;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  opacity: 0.6;
+  padding-right: 0.2rem;
+  /* margin-top: 0.2rem; */
+}
+
+.profile:hover {
+  opacity: 1;
+}
+
+.fa-user {
+  padding: 1rem 0rem 0rem 1.2rem;
+}
+
+/* library options */
+.lib-option a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+
+.lib-option img {
+  height: 1.25rem;
+  width: 1.25rem;
+  opacity: 0.7;
+}
+
+.lib-option a:hover,
+.lib-option img:hover {
+  opacity: 1;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.icons {
+  display: flex;
+  font-size: 1.25rem;
+}
+
+.icons i {
+  opacity: 0.6;
+  margin-right: 1rem;
+}
+
+.icons i:hover {
+  opacity: 1;
+}
+
+/* library boxes */
+
+.lib-box {
+  /* margin: 1rem 0rem 1rem 0rem; */
+  height: 20.15rem;
+}
+
+.box-1,
+.box-2 {
+  /* border: 2px solid white; */
+  /* width: 85%; */
+  height: 6.5rem;
+  border-radius: 0.5rem;
+  background-color: #232323;
+  padding: 1rem 1.25rem 1rem 1.25rem;
+  margin: 1rem 0.4rem 1rem 0.4rem;
+}
+
+.box-1 > .box-p1,
+.box-2 > .box-p1 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.box-1 > .box-p2,
+.box-2 > .box-p2 {
+  font-size: 0.75rem;
+}
+
+.box-1 > .badge,
+.box-2 > .badge {
+  font-weight: 700;
+  border-radius: 1rem;
+  height: 2rem;
+  width: 7.8rem;
+  border: none;
+}
+
+/* library footer .options */
+.fotter {
+  /* border: 2px solid white; */
+  font-size: 0.65rem;
+  display: flex;
+  margin: 2rem 0rem 2rem 0rem;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+  flex-wrap: wrap;
+  height: 5rem;
+}
+
+.fotter div {
+  /* border: 2px solid white; */
+  width: auto;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* English Global */
+
+.global {
+  margin-left: 1rem;
+}
+
+.global button img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.global button {
+  height: 2rem;
+  width: 6.2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #121212;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.319);
+  border-radius: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+.global button:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
