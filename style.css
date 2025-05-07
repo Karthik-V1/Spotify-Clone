@@ -106,7 +106,7 @@ body {
 
 .right-side-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 32.25rem;
 }
 
@@ -317,6 +317,15 @@ body {
   width: auto;
   margin-right: 1rem;
   margin-bottom: 1rem;
+}
+
+.fotter div:hover {
+  opacity: 0.7;
+}
+
+.fotter div:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 /* English Global */
