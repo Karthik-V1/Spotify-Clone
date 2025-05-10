@@ -22,7 +22,7 @@ body {
 }
 
 .main-content {
-  background-color: #2b2b2b;
+  background: linear-gradient(to bottom, #2d2c2ca1, #121212);
   flex: 1;
   border-radius: 0.5rem;
   overflow: auto;
@@ -237,7 +237,7 @@ body {
   .pipe {
     display: none;
   }
-  .home{
+  .home {
     margin-left: 0.7rem;
   }
 }
