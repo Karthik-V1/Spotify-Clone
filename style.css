@@ -26,6 +26,8 @@ body {
   flex: 1;
   border-radius: 0.5rem;
   overflow: auto;
+  padding: 0 1.5rem 0 1.5rem;
+  /* color: white; */
 }
 
 .music-player {
@@ -437,4 +439,59 @@ body {
 .global button:hover {
   border: 1px solid white;
   cursor: pointer;
+}
+
+/* image cards main content  */
+
+.card {
+  width: 10.5rem;
+  height: 18rem;
+  padding: 0.5rem 0 0 0.5rem;
+  background-color: #12121234;
+  /* background: linear-gradient(to bottom, #2d2c2ca1, #121212); */
+  border-radius: 0.5rem;
+}
+
+.card:hover {
+  background-color: #232323;
+  cursor: pointer;
+}
+
+.card:hover .card-playbtn {
+  display: inline-block;
+}
+/* set the card-playbtn to inline block when hoverd on the card */
+
+.card-tittle {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.card-info {
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.cards {
+  color: white;
+}
+
+.card-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0.5rem;
+}
+
+.card-playbtn {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 15.6rem;
+  left: 31.5rem;
+  opacity: 0.8;
+  display: none;
+}
+
+.card-playbtn:hover {
+  opacity: 1;
 }
