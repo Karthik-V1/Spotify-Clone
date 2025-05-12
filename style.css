@@ -506,6 +506,7 @@ body {
   display: none;
   bottom: 9.6rem;
   left: 6.5rem;
+  z-index: 10;
 }
 
 .card-playbtn:hover {
@@ -517,4 +518,14 @@ body {
   flex-wrap: wrap;
 }
 
+/* footer section */
 
+.footer {
+  height: 100px;
+}
+
+.line{
+  border-top: 0.4px solid rgba(255, 255, 255, 0.241);
+  margin-top: 50px;
+  opacity: 0.1;
+}
