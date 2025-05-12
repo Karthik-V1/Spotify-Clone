@@ -450,6 +450,10 @@ body {
   background-color: #12121234;
   /* background: linear-gradient(to bottom, #2d2c2ca1, #121212); */
   border-radius: 0.5rem;
+  margin-left: 0.3rem;
+  margin-top: 0.3rem;
+  /* z-index: 0; */
+  /* position: absolute; */
 }
 
 .card:hover {
@@ -485,13 +489,22 @@ body {
 .card-playbtn {
   width: 3rem;
   height: 3rem;
-  position: absolute;
-  top: 15.6rem;
-  left: 31.5rem;
+  position: relative;
   opacity: 0.8;
   display: none;
+  bottom: 9.6rem;
+  left: 6.5rem;
 }
 
 .card-playbtn:hover {
   opacity: 1;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-container:hover {
+  flex-wrap: wrap;
 }
