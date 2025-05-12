@@ -452,11 +452,20 @@ body {
   border-radius: 0.5rem;
   margin-left: 0.3rem;
   margin-top: 0.3rem;
-  /* z-index: 0; */
-  /* position: absolute; */
 }
 
-.card:hover {
+.card-f {
+  width: 10.5rem;
+  height: 16rem;
+  padding: 0.5rem 0 0 0.5rem;
+  background-color: #12121234;
+  /* background: linear-gradient(to bottom, #2d2c2ca1, #121212); */
+  border-radius: 0.5rem;
+  margin-left: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.card:hover, .card-f:hover {
   background-color: #232323;
   cursor: pointer;
 }
@@ -465,6 +474,9 @@ body {
   display: inline-block;
 }
 /* set the card-playbtn to inline block when hoverd on the card */
+.card-f:hover .card-playbtn{
+  display: inline-block;
+}
 
 .card-tittle {
   font-weight: 600;
@@ -505,6 +517,4 @@ body {
   flex-wrap: wrap;
 }
 
-.cards-container:hover {
-  flex-wrap: wrap;
-}
+
