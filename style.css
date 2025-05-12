@@ -565,6 +565,10 @@ body {
   opacity: 1;
 }
 
+.play-btn:hover {
+  transform: scale(1.05);
+}
+
 .player-controler {
   display: flex;
   justify-content: center;
