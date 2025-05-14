@@ -555,11 +555,17 @@ body {
 .cover-info {
   margin-left: 2rem;
   margin-bottom: 1rem;
+  line-height: 0.2rem;
 }
 
 .cover-tittle {
   font-size: 1rem;
   font-weight: 600;
+}
+
+.cover-tittle:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .cover-des {
