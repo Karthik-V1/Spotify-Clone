@@ -574,6 +574,18 @@ body {
   text-decoration: underline;
 }
 
+.liked-song-btn {
+  height: 1.3rem;
+  width: 1.3rem;
+  margin-left: 3rem;
+  opacity: 0.7;
+}
+
+.liked-song-btn:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
 .media-player {
   /* background-color: rgb(30, 30, 29); */
   width: 50%;
@@ -635,5 +647,43 @@ body {
 
 .advance-opt {
   width: 25%;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sound-progress-bar {
+  width: 20%;
+  appearance: none;
+  /* refer mdn docs */
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.sound-progress-bar::-webkit-slider-runnable-track {
+  background-color: #ddd;
+  /* background-color: #1bd760; */
+  border-radius: 1.5rem;
+  height: 0.2rem;
+}
+
+.sound-progress-bar::-webkit-slider-thumb {
+  appearance: none;
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: #1bd276;
+  border-radius: 50%;
+  margin-top: -0.35rem;
+}
+
+.advance-icons {
+  width: 1.2rem;
+  height: 1.2rem;
+  opacity: 0.7;
+}
+
+.advance-icons:hover {
+  cursor: pointer;
+  opacity: 1;
 }
