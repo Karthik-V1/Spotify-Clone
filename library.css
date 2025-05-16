@@ -1,0 +1,137 @@
+/* library options */
+.lib-option a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+
+.lib-option img {
+  height: 1.25rem;
+  width: 1.25rem;
+  opacity: 0.7;
+}
+
+.lib-option a:hover,
+.lib-option img:hover {
+  opacity: 1;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.icons {
+  display: flex;
+  font-size: 1.25rem;
+}
+
+.icons i {
+  opacity: 0.6;
+  margin-right: 1rem;
+}
+
+.icons i:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* library boxes */
+
+.lib-box {
+  /* margin: 1rem 0rem 1rem 0rem; */
+  height: 20.15rem;
+}
+
+.box-1,
+.box-2 {
+  /* border: 2px solid white; */
+  /* width: 85%; */
+  height: 6.5rem;
+  border-radius: 0.5rem;
+  background-color: #232323;
+  padding: 1rem 1.25rem 1rem 1.25rem;
+  margin: 1rem 0.4rem 1rem 0.4rem;
+}
+
+.box-1 > .box-p1,
+.box-2 > .box-p1 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.box-1 > .box-p2,
+.box-2 > .box-p2 {
+  font-size: 0.75rem;
+}
+
+.box-1 > .badge,
+.box-2 > .badge {
+  font-weight: 700;
+  border-radius: 1rem;
+  height: 2rem;
+  width: 7.8rem;
+  border: none;
+}
+
+.box-1 > .badge:hover,
+.box-2 > .badge:hover {
+  cursor: pointer;
+}
+
+/* library footer .options */
+.fotter {
+  /* border: 2px solid white; */
+  font-size: 0.65rem;
+  display: flex;
+  margin: 2rem 0rem 2rem 0rem;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+  flex-wrap: wrap;
+  height: 5rem;
+}
+
+.fotter div {
+  /* border: 2px solid white; */
+  width: auto;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.fotter div:hover {
+  opacity: 0.7;
+}
+
+.fotter div:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* English Global */
+
+.global {
+  margin-left: 1rem;
+}
+
+.global button img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.global button {
+  height: 2rem;
+  width: 6.2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #121212;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.319);
+  border-radius: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+.global button:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}

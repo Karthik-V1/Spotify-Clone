@@ -1,0 +1,168 @@
+/* music player */
+
+.music-player {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.song-cover {
+  width: 25%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+}
+
+.cover-image {
+  margin-top: 0.4rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.cover-info {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  line-height: 0.2rem;
+}
+
+.cover-tittle {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cover-tittle:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cover-des {
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+}
+
+.cover-des:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.liked-song-btn {
+  height: 1.3rem;
+  width: 1.3rem;
+  margin-left: 3rem;
+  opacity: 0.7;
+}
+
+.liked-song-btn:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.media-player {
+  /* background-color: rgb(30, 30, 29); */
+  width: 50%;
+}
+
+.media-player-icons {
+  height: 1rem;
+  width: 1rem;
+  margin-left: 2rem;
+  opacity: 0.7;
+}
+
+.media-player-icons:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.play-btn:hover {
+  transform: scale(1.05);
+}
+
+.player-controler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playback-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 70%;
+  appearance: none;
+  /* refer mdn docs */
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+  /* refer to quirksmods.org for docs */
+  background-color: #ddd;
+  /* background-color: #1bd760; */
+  border-radius: 6.25rem;
+  height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb {
+  appearance: none;
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: #1bd276;
+  border-radius: 50%;
+  margin-top: -0.35rem;
+  /* display: none; */
+}
+
+.advance-opt {
+  width: 25%;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sound-progress-bar {
+  width: 20%;
+  appearance: none;
+  /* refer mdn docs */
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.sound-progress-bar::-webkit-slider-runnable-track {
+  background-color: #ddd;
+  /* background-color: #1bd760; */
+  border-radius: 1.5rem;
+  height: 0.2rem;
+}
+
+.sound-progress-bar::-webkit-slider-thumb {
+  appearance: none;
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: #1bd276;
+  border-radius: 50%;
+  margin-top: -0.35rem;
+}
+
+.advance-icons {
+  width: 1.2rem;
+  height: 1.2rem;
+  opacity: 0.7;
+}
+
+.advance-icons:hover {
+  cursor: pointer;
+  opacity: 1;
+}
